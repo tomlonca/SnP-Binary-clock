@@ -1,14 +1,19 @@
-# SnP-Binary-clock
+# SnP-Binary-Clock
 
-This project is the design and implementation of a binary clock using an AtMega48 Microprocessor and a circuit trace (PCB trace)
+This project is about designing and implementing a **binary clock** using an AtMega48 microcontroller and a custom PCB.
 
 ## Overview
-The goal is to create a **binary clock**, with a normal, sleep and lower power mode. It should be able to change from one another using three buttons on top of the (es. plaqueta)
+The clock supports:
+- **Normal mode**
+- **Sleep mode**
+- **Low power mode**
 
-# Available Files
+Mode switching is done via three buttons on the top of the board.
 
-BinaryClock_pcb, BinaryClock_pcb, BinaryClock_pcb are the necessary files for the circuit layout.
+## Available Files
+- `BinaryClock_pcb.sch` – Schematic
+- `BinaryClock_pcb.prl` – PCB layout
+- `BinaryClock_pcb.pcb` – Compiled firmware
 
---
-
-Still a work in progress. Contributions or feedback welcome!
+## Status
+Work in progress. Contributions or feedback welcome!
